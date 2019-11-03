@@ -211,10 +211,9 @@ The REST API is secured via [basic authentication](https://en.wikipedia.org/wiki
 
 For more information about HBase Rest, see [Apache HBase Reference Guide](https://hbase.apache.org/book.html#_rest).
 
-> [!NOTE]  
-> Thrift is not supported by HBase in HDInsight.
+> NOTE:
 >
-> When using Curl or any other REST communication with WebHCat, you must authenticate the requests by providing the user name and password for the HDInsight cluster administrator. You must also use the cluster name as part of the Uniform Resource Identifier (URI) used to send the requests to the server:
+> When using Curl or any other REST communication, you must authenticate the requests by providing the user name and password for the HDInsight cluster administrator. You must also use the cluster name as part of the Uniform Resource Identifier (URI) used to send the requests to the server:
 > 
 >   
 >        curl -u <UserName>:<Password> \
