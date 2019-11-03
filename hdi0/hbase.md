@@ -235,7 +235,7 @@ HBase in HDInsight ships with a Web UI for monitoring clusters. Using the Web UI
 
 1. Select **Quick links** on the top of the page, point to the active Zookeeper node link, and then select **HBase Master UI**.  The UI is opened in another browser tab:
 
-   ![HDInsight Apache HBase HMaster UI](./media/apache-hbase-tutorial-get-started-linux/hdinsight-hbase-hmaster-ui.png)
+   ![HDInsight Apache HBase HMaster UI](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/hdinsight/hbase/media/apache-hbase-tutorial-get-started-linux/hdinsight-hbase-hmaster-ui.png)
 
    The HBase Master UI contains the following sections:
 
