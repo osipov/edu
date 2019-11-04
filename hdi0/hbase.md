@@ -24,7 +24,7 @@ For most people, data appears in the tabular format:
 
 ![HDInsight Apache HBase tabular data](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/hdinsight/hbase/media/apache-hbase-tutorial-get-started-linux/hdinsight-hbase-contacts-tabular.png)
 
-In HBase (an implementation of [Cloud BigTable](https://cloud.google.com/bigtable/)), the same data looks like:
+In HBase (an implementation of [Google BigTable](https://cloud.google.com/bigtable/)), the same data looks like:
 
 ![HDInsight Apache HBase BigTable data](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/hdinsight/hbase/media/apache-hbase-tutorial-get-started-linux/hdinsight-hbase-contacts-bigtable.png)
 
