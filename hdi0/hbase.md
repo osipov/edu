@@ -110,13 +110,13 @@ This procedure uses the `LEARNERID_Contacts` HBase table you created in the last
 1. Edit the command below by replacing `LEARNERID` with your learner ID and then from your open ssh connection, run the following command to transform the data file to StoreFiles and store at a relative path specified by `Dimporttsv.bulk.output`.
 
     ```bash
-    hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.columns="HBASE_ROW_KEY,Personal:Name,Personal:Phone,Office:Phone,Office:Address" -Dimporttsv.bulk.output="/example/data/storeDataFileOutput" LEARNERID_Contacts wasb://hbasecontacts@hditutorialdata.blob.core.windows.net/contacts.txt
+    hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.columns="HBASE_ROW_KEY,Personal:Name,Personal:Phone,Office:Phone,Office:Address" -Dimporttsv.bulk.output="/example/data/LEARNERID_storeDataFileOutput" LEARNERID_Contacts wasb://hbasecontacts@hditutorialdata.blob.core.windows.net/contacts.txt
     ```
 
 2. Edit the command below by replacing `LEARNERID` with your learner ID and then run the following command to upload the data from `/example/data/storeDataFileOutput` to the HBase table:
 
     ```bash
-    hbase org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles /example/data/storeDataFileOutput LEARNERID_Contacts
+    hbase org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles /example/data/LEARNERID_storeDataFileOutput LEARNERID_Contacts
     ```
 
 3. You can open the HBase shell, and use the `scan` command to list the table contents.
