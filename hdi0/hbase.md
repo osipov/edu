@@ -134,7 +134,7 @@ You can query data in HBase tables by using [Apache Hive](https://hive.apache.or
 1. Edit the command below by replacing `LEARNERID` with your learner ID and then run the following [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual) script  to create a Hive table that maps to the HBase table. Make sure that you have created the sample table referenced earlier in this article by using the HBase shell before you run this statement.
 
     ```hiveql
-    CREATE EXTERNAL TABLE hbasecontacts(rowkey STRING, name STRING, homephone STRING, officephone STRING, officeaddress STRING)
+    CREATE EXTERNAL TABLE LEARNERID_hbasecontacts(rowkey STRING, name STRING, homephone STRING, officephone STRING, officeaddress STRING)
     STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
     WITH SERDEPROPERTIES ('hbase.columns.mapping' = ':key,Personal:Name,Personal:Phone,Office:Phone,Office:Address')
     TBLPROPERTIES ('hbase.table.name' = 'LEARNERID_Contacts');
@@ -143,7 +143,7 @@ You can query data in HBase tables by using [Apache Hive](https://hive.apache.or
 1. Run the following HiveQL script to query the data in the HBase table:
 
     ```hiveql
-    SELECT count(rowkey) AS rk_count FROM hbasecontacts;
+    SELECT count(rowkey) AS rk_count FROM LEARNERID_hbasecontacts;
     ```
 
 1. To exit Beeline, use `!exit`.
