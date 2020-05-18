@@ -51,6 +51,8 @@ Using your browser open `localhost:8080/hello.html` and confirm that you see the
 
 `docker rmi my_http --force`
 
+Yay, you just built and ran your Docker image! :tada:
+
 ### Resources
 
 * [Docker Reference - builder](https://docs.docker.com/engine/reference/builder/)

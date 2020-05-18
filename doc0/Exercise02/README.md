@@ -42,7 +42,7 @@ The end result of the above command was tu run a container, but internally, it d
 
 - `docker` command sends the above request to the Docker Daemon, which is running in the background.
 - The daemon upon receiving the command, check if the image exists.
-- The daemon downloads/pulls the `hello-world:latest` image from a _default_ [registry](/lesson-3) called [Docker Hub](https://hub.docker.com/).
+- The daemon downloads/pulls the `hello-world:latest` image from a default registry called [Docker Hub](https://hub.docker.com/).
 - The daemon created a container with the specified image.
 - The daemon streamed the output to the `docker` command which is then displayed on your terminal.
 
