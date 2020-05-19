@@ -49,7 +49,7 @@ OK, since its working now, let's `curl` and save the data in a file and exit fro
 
 ```bash
 root@<container id>:/# mkdir mydata && cd mydata
-root@<container id>:/mydata# curl curl https://google.com > index.html
+root@<container id>:/mydata# curl https://google.com > index.html
 root@<container id>:/mydata# cat index.html
 root@<container id>:/mydata# exit
 ```
