@@ -43,7 +43,7 @@ docker network disconnect mynetwork myhost
 ### Connect your container back to your network
 
 ```
-docker network disconnect mynetwork myhost
+docker network connect mynetwork myhost
 ```
 
 # Networked applications
