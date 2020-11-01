@@ -8,4 +8,4 @@
 # [Cloud Native Machine Learning](https://www.manning.com/books/cloud-native-machine-learning)
 ## by Carl Osipov
 
-[Cloud Native Machine Learning](images/cover_sm.jpg)
+[![Cloud Native Machine Learning](images/cover_sm.jpg)]
