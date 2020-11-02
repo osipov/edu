@@ -4,6 +4,10 @@
 | Topic | Demo | Exercise | Solution |
 |---------|-------------|-------------|-------------|
 | PyTorch Tensor Numerics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Demo_PyTorch_Tensors.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Exercise_PyTorch_Tensors.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Solution_PyTorch_Tensors.ipynb) |
+| Autodiff Algorithm | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Demo_Autodiff_Algorithm.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Exercise_Autodiff_Algorithm.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Solution_Autodiff_Algorithm.ipynb) |
+| PyTorch Autograd | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Demo_Autograd_GPU.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Exercise_Autograd_GPU.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/osipov/edu/blob/master/pyt0/Solution_Autograd_GPU.ipynb) |
+
+
 
 # [Cloud Native Machine Learning](https://www.manning.com/books/cloud-native-machine-learning)
 ## by Carl Osipov
