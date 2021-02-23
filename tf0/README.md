@@ -1,4 +1,4 @@
-# Introduction to PyTorch for Deep Learning
+# Introduction to TensorFlow for Deep Learning
 ## by Carl Osipov
 
 | Topic | Demo | Exercise | Solution |
